@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-    <head>
-      <title></title>
-    </head>
+@extends('layout')
 
-    <body>
-      <h1>Here we go!!!</h1>
-
-      <p><a href="/contact">Contact</a> us to learn more.</p>
-    </body>
-</html>
+@section('content')
+  <h1>My First Website</h1>
+@endsection
